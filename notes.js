@@ -6,6 +6,9 @@ const addNotes = (title, body) => {
   //const dupTitleCheck = notes.filter((note) => note.title === title);
   const dupNotes = notes.find((note) => note.title === title);
 
+  //Works only when we have inspect or --inspect-brk option passed for the node command!
+  debugger
+
   if (!dupNotes) {
     notes.push({
       title: title,

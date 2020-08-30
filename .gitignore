@@ -1,0 +1,2 @@
+#Ignoring node_modules from git commit
+node_modules/
